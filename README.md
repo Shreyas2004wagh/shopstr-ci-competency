@@ -6,6 +6,9 @@ This repository packages the competency-test work for the Shopstr project idea:
 
 It is not a fork of `shopstr-eng/shopstr`, and it does not attempt to rehost Shopstr source code. Instead, it documents the investigation, the proposed CI workflow, the baseline coverage numbers, the current test blockers observed locally, and the exact artifacts produced for the competency test.
 
+This work intentionally avoids copying Shopstr source code and instead focuses on reproducible artifacts derived from the upstream repository.
+The goal is to demonstrate understanding of the real codebase, testing setup, and CI gap without republishing upstream implementation files.
+
 ## Why this repo exists
 
 The strongest way to demonstrate readiness for this project is to work against the real Shopstr repository instead of building an unrelated toy app. This repo captures that evidence in a compact, reviewable form.
@@ -30,6 +33,8 @@ The competency-test work completed here covers:
   Summary of the failures observed during a full local test run.
 - [`docs/project-scope.md`](./docs/project-scope.md)
   Rationale for why these modules and checks are the correct hot paths to prioritize.
+- [`COMPETENCY_MAPPING.md`](./COMPETENCY_MAPPING.md)
+  Direct mapping from each competency-test requirement to the artifact in this repo.
 - [`scripts/collect-target-coverage.ps1`](./scripts/collect-target-coverage.ps1)
   Helper script that runs the targeted coverage collection command used for the baseline.
 - [`scripts/print-baseline.ps1`](./scripts/print-baseline.ps1)
