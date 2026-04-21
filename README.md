@@ -80,8 +80,3 @@ This repo is best treated as a compact competency artifact:
 2. inspect the workflow and documentation artifacts
 3. review the baseline coverage and failure notes
 4. use the scripts as evidence of how the numbers were collected
-
-## Notes
-
-- This repository intentionally avoids copying Shopstr source files wholesale.
-- The authored artifacts here are meant to support a proposal, mentor discussion, and possible follow-up work in a fork or upstream PR.
